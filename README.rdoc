@@ -40,7 +40,7 @@ I spent a long time (maybe more than in the checkout code) finding how to run rs
 Unfortunately, I didn't find it
 
 My idea in main.rb was to create a funny code. Similar this one https://github.com/praekelt/careers/raw/master/software_engineer.py
-After the prompt I wanted to run the test suite ../spec/main_spec.rb, to validate your answers
+After the prompts I wanted to run the test suite ../spec/main_spec.rb, to validate your answers
 
 I'll write a post on the rspec forum ask about it ;)
 
