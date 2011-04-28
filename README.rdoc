@@ -1,0 +1,47 @@
+== Headshift_test/Pablo Cantero
+
+Here is my code for the Code Kata
+
+I wrote the checkout class following your interface
+
+ co = Checkout.new(pricing_rules)
+ co.scan(item)
+ co.scan(item)
+ price = co.total
+
+I don't know if I didn't understand. But I'm not totaly agree with co.scan. IMHO I think that the pricing_rules must be calculated in method total
+
+I wrote this code much simple as I could ;)
+
+== Running the tests 
+
+ rspec spec/checkout_spec.rb
+
+== Why I cloned the object in checkout_spec.rb
+
+I cloned the products in checkout_spec.rb 
+
+ co.scan(@fruit_tea.clone)
+
+To use different references, to don't break my code in this part
+
+ if count % 2 == 1
+   product.price = 0
+ end
+
+If I use same reference, I will change all prices to 0
+
+== What I tried to create in main.rb
+
+I spent a long time (maybe more than in the checkout code) finding how to run rspec from ruby code like test/unit
+
+ Test::Unit::UI::Console::TestRunner.run(MySuite.new(MyTestCase))
+
+Unfortunately, I didn't find it
+
+My idea in main.rb was to create a funny code. Similar this one https://github.com/praekelt/careers/raw/master/software_engineer.py
+After the prompt I wanted to run the test suite ../spec/main_spec.rb, to validate your answers
+
+I'll write a post on the rspec forum ask about it ;)
+
+
