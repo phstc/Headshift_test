@@ -11,7 +11,7 @@ I wrote the checkout class following your interface
 
 I don't know if I didn't understand. But I'm not totaly agree with co.scan. IMHO I think that the pricing_rules must be calculated in the method total
 
-I wrote this code much simple as I could ;)
+I wrote this code as simple as I could ;)
 
 == Running the tests 
 
