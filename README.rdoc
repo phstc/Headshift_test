@@ -13,9 +13,11 @@ I don't know if I didn't understand. But I'm not totaly agree with co.scan. IMHO
 
 I wrote this code as simple as I could ;)
 
-== Running the tests 
+== Running this code
 
- rspec spec/checkout_spec.rb
+  rake
+
+Rake command will execute a short questionary and after it will execute the entire test suite ;)
 
 == Why I cloned the object in checkout_spec.rb
 
@@ -30,18 +32,5 @@ To use different references, to don't break my code in this part
  end
 
 If I use same reference, I will change all prices to 0
-
-== What I tried to create in main.rb
-
-I spent a long time (maybe more than in the checkout code) finding how to run rspec from ruby code like test/unit
-
- Test::Unit::UI::Console::TestRunner.run(MySuite.new(MyTestCase))
-
-Unfortunately, I didn't find it
-
-My idea in main.rb was to create a funny code. Similar this one https://github.com/praekelt/careers/raw/master/software_engineer.py
-After the prompts I wanted to run the test suite ../spec/main_spec.rb, to validate your answers
-
-I'll write a post on the rspec forum ask about it ;)
 
 
