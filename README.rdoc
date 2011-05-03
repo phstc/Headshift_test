@@ -31,6 +31,6 @@ To use different references, to don't break my code in this part
    product.price = 0
  end
 
-If I use same reference, I will change all prices to 0
+If I use the same reference, it will change all objects price (same reference) to 0
 
 
