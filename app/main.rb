@@ -1,3 +1,5 @@
+require 'yaml'
+
 class Main  
   def show_questions
     @answers = {}

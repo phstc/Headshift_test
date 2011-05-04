@@ -1,6 +1,5 @@
 require 'rake'
 require 'rspec/core/rake_task'
-require 'yaml'
 require File.dirname(__FILE__) + '/app/main.rb'
 
 

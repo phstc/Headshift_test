@@ -1,4 +1,3 @@
-require 'yaml'
 require File.dirname(__FILE__) + '/../app/main.rb'
 
 describe Main do
@@ -15,7 +14,7 @@ describe Main do
     @main.answers[:ask_lots_of_money].should be_true
   end
   
-  it 'should give me a lots of money ;)' do
+  it 'should give me a lots of money to make me rich' do
     @main.answers[:ask_patience_with_my_english_level].should be_true
   end
   
