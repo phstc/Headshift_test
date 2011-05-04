@@ -11,11 +11,11 @@ describe Main do
   end
   
   it 'should be patience with my English level' do
-    @main.answers[:ask_lots_of_money].should be_true
+    @main.answers[:ask_patience_with_my_english_level].should be_true
   end
   
   it 'should give me a lots of money to make me rich' do
-    @main.answers[:ask_patience_with_my_english_level].should be_true
+    @main.answers[:ask_lots_of_money].should be_true
   end
   
 end
