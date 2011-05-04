@@ -17,7 +17,7 @@ I wrote this code as simple as I could ;)
 
   rake
 
-Rake command will execute a short questionary and after it will execute the entire test suite ;)
+Rake command will execute a short questionnaire and after it will execute the entire test suite ;)
 
 == Why I cloned the object in checkout_spec.rb
 
