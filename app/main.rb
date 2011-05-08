@@ -47,3 +47,8 @@ class Main
   end
 
 end
+
+# https://github.com/rspec/rspec-core/issues/359
+# require 'rspec'
+# spec_dir = File.expand_path(File.dirname(__FILE__)) + '/../spec/'
+# RSpec::Core::Runner::run([spec_dir], $stderr, $stdout)
