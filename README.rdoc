@@ -1,6 +1,6 @@
 == Headshift_test/Pablo Cantero
 
-Here is my code for the Code Kata
+Here is my code for the Code Kata (https://gist.github.com/5977211c8c3c30b43063) proposed
 
 I wrote the checkout class following your interface
 
